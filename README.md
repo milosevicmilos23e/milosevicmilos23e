@@ -44,7 +44,7 @@ I am a Supply Chain & Data Operations Professional specializing in bridging the 
 ---
 
 ## 🏆 Portfolio
-### 🔗 [Visit My Live Portfolio Website](https://milosevicmilos23e.github.io/)
+### 🔗 [Visit My Live Portfolio Website](https://milosevicmilos23e.github.io/portfolio)
 
 ---
 
