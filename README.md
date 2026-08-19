@@ -10,7 +10,12 @@
 </p>
 
 ## 👤 About Me
-I am a Supply Chain & Data Operations Professional specializing in bridging the gap between complex logistics planning and advanced technical execution. My expertise lies in architecting data-driven tooling, automated business applications, and proactive decision-support systems that transform operational constraints into strategic advantages.
+
+I build operational intelligence systems - combining supply chain domain expertise, discrete optimization, and hands-on data engineering.
+
+In 16 months at Valvoline, I designed a daily scheduling system for multiple blending and filling machines, identified high working capital trapped across warehouse networks, and built a demand profiling framework used for SKU rationalization and Forecast correction / rebalancing.
+
+Now I'm focusing on remote opportunities where I can bring this combination to harder problems - supply chain optimization, operational intelligence, and applied analytics in industrial SaaS environments.
 
 ### 🎯 Core Focus
 * **Operations Intelligence & Tooling:** Building robust analytics pipelines and interactive applications using Python and SQL (Postgres/MySQL) paired with enterprise-grade reporting in Power BI and Excel.
@@ -49,12 +54,59 @@ I am a Supply Chain & Data Operations Professional specializing in bridging the 
 ---
 
 ## 🔄 How I Deliver Value
-* **Aligning Data to Strategy:** I partner with cross-functional stakeholders to translate operational roadblocks, turning commercial questions into trackable metrics (e.g., Plan Adherence, Attainment, Months of Inventory).
+* **Aligning Data to Strategy:** I partner with cross-functional stakeholders to translate operational roadblocks, turning commercial questions into trackable metrics.
 * **Data Architecture:** I eliminate the overhead of manual tracking by automating robust backend workflows-safely ingesting raw data, resolving cross-warehouse misclassifications, and ensuring end-to-end data integrity.
 * **Mathematical Optimization:** I inject operational research into supply chain planning, leveraging methods like adaptive forecasting and customer/SKU segmentation to protect working capital and minimize obsolescence (SLOB/SMOG) risks.
 * **Sustainable Workflows:** Delivering highly interactive BI tools, automated communication decks, and deployment-ready applications built to scale.
 
 ---
 
+## 🎯 What I Actually Solve
+
+**Demand Planning Under Uncertainty**
+→ ADI/CV² demand classification (Syntetos-Boylan methodology) into four behavioral profiles. 
+Different demand patterns require different forecasting methods. Most teams apply the same 
+logic to everything.
+
+**Portfolio Intelligence**
+→ ABC/XYZ segmentation + K-Means clustering to surface patterns hidden in aggregate 
+reporting. Identifies rationalization candidates, inventory risk, and cash exposure at SKU 
+level before it becomes a problem.
+
+**Cross-Functional Visibility**
+→ Interactive BI tools and automated reporting that let non-technical colleagues own 
+complex data stories without being bottlenecked by analysts.
+
+**Operational Architecture**
+→ Data models, ETL pipelines, and normalized schemas that support scaling from 
+hundreds to thousands of SKUs without rewriting the foundation.
+
+---
 ## 📌 Featured Projects
-* **Demand Profiler** - An algorithmic tool for historical sales profiling and demand segmentation. Located inside `supply-chain/demand-profiler/`
+### 🚀 In Development
+
+**Demand Profiler & Segmentation Tool** `[June 2026]`
+- Demand profiling engine using ADI/CV² classification (Syntetos & Boylan, 2005)
+- ABC/XYZ segmentation + K-Means behavioral clustering
+- SQLite persistence layer with normalized SKU, demand history, and results schema
+- Interactive Streamlit dashboard with parametric exploration
+- **Link:** [GitHub Repo](https://github.com/hiperborejac23/sc-demand-profiler)
+
+**Production Scheduling Optimizer** `[July 2026]`
+- Multi-line capacity planning with shift, maintenance, and labor constraints
+- Deterministic scheduling with plan adherence tracking
+- OR-Tools LP solver for constraint satisfaction
+- **Link:** [GitHub Repo - Coming Soon]
+
+**SmartLoad - Delivery Scheduling & Load Optimization**  `[August 2026]`
+- Bin packing heuristic (Best-Fit Decreasing + soft scoring) for multi-vehicle 
+  daily dispatch planning
+- Five scenario strategies: Cost-Efficient Routing, Max Volume, Max Orders, 
+  Priority-First, Pareto Optimum - operatives choose based on daily priority
+- ETL pipeline: Power Query (data cleaning) → Python optimizer → VBA orchestration 
+  → Power BI reporting
+- Validated on synthetic peak-day dataset: 95.5–98.5% order fulfillment, 86–95% 
+  fleet utilization (vs 76–87% baseline)
+- Explicit scope boundaries documented: no real-world routing, no 3D geometry, 
+  no time windows - by design for rapid iteration
+- **Link:** [GitHub Repo - Coming Soon]
