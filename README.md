@@ -1,4 +1,4 @@
-## Hi there, I'm Milos. How is your day going? 👋
+## Hi, there! 👋
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=900&color=2E9EF7&center=true&vCenter=true&width=600&lines=Supply+Chain+%26+Operations;Data+Architecture+%26+Analytics;Decision+Support+Systems;Enterprise+Business+Intelligence" alt="Typing SVG" />
@@ -15,7 +15,7 @@ I build operational intelligence systems - combining supply chain domain experti
 
 In 16 months at Valvoline, I designed a daily scheduling system for multiple blending and filling machines, identified high working capital trapped across warehouse networks, and built a demand profiling framework used for SKU rationalization and Forecast correction / rebalancing.
 
-Now I'm focusing on remote opportunities where I can bring this combination to harder problems - supply chain optimization, operational intelligence, and applied analytics in industrial SaaS environments.
+Now I'm focusing on remote opportunities where I can bring this combination to harder problems - supply chain optimization, operational intelligence, and applied analytics in industrial environments.
 
 ### 🎯 Core Focus
 * **Operations Intelligence & Tooling:** Building robust analytics pipelines and interactive applications using Python and SQL (Postgres/MySQL) paired with enterprise-grade reporting in Power BI and Excel.
